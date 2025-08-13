@@ -1,0 +1,230 @@
+html,body{
+    margin:0;
+    width:100vw;
+    height:100vh;
+}
+p{
+  margin:0;
+}
+
+#main{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+
+textarea{
+    resize:none;
+    width:50%;
+    height:30%;
+}
+
+#title,#mean{
+    color:white;
+    margin:0;
+}
+
+#title{
+    font-size:170px;
+}
+#mean{
+    font-size:70px;
+}
+
+
+
+/*
+        .snow-container {
+            display: flex;
+            position: fixed;
+            width: 100vw;
+            height: 100dvh;
+            z-index: -1;
+        }
+        .snow-container .snow span,
+        .snow-container .snow::before,
+        .snow-container .snow::after {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            color: snow;
+            text-align: center;
+        }
+        .snow-container .snow.small {
+            font-size: 2rem;
+            opacity: 1;
+        }
+        .snow-container .snow.medium {
+            font-size: 2.33rem;
+            opacity: 0.8;
+        }
+        .snow-container .snow.large {
+            font-size: 2.66rem;
+            opacity: 0.6;
+        }
+
+        .snow-container .snow.small span {
+            display: block;
+            animation: fall-small 7s linear infinite;
+        }
+        .snow-container .snow.small::before {
+            content: "❄";
+            left: -30%;
+            animation: fall-small 9s linear infinite;
+        }
+        .snow-container .snow.small::after {
+            content: "❄";
+            left: 30%;
+            animation: fall-small 13s linear infinite;
+        }
+
+        .snow-container .snow.medium span {
+            display: block;
+            left: 10%;
+            animation: fall-medium 8s linear infinite;
+        }
+        .snow-container .snow.medium::before {
+            content: "❄";
+            left: -40%;
+            animation: fall-medium 10s linear infinite;
+        }
+        .snow-container .snow.medium::after {
+            content: "❄";
+            left: 40%;
+            animation: fall-medium 6s linear infinite;
+        }
+
+        .snow-container .snow.large span {
+            display: block;
+            left: -10%;
+            animation: fall-large 5s linear infinite;
+        }
+        .snow-container .snow.large::before {
+            content: "❄";
+            left: -35%;
+            animation: fall-large 6s linear infinite;
+        }
+        .snow-container .snow.large::after {
+            content: "❄";
+            left: 35%;
+            animation: fall-large 7s linear infinite;
+        }
+
+        @keyframes fall-small {
+            0% {
+            top: -20px;
+            }
+            3% {
+            transform: translateX(5px);
+            }
+            7% {
+            transform: translateX(5px);
+            }
+            18% {
+            transform: translateX(-5px);
+            }
+            22% {
+            transform: translateX(-5px);
+            }
+            38% {
+            transform: translateX(13px);
+            }
+            42% {
+            transform: translateX(13px);
+            }
+            58% {
+            transform: translateX(-13px);
+            }
+            62% {
+            transform: translateX(-13px);
+            }
+            78% {
+            transform: translateX(13px);
+            }
+            82% {
+            transform: translateX(13px);
+            }
+            100% {
+            top: calc(100% + 20px);
+            }
+        }
+
+        @keyframes fall-medium {
+            0% {
+            top: -200px;
+            }
+            3% {
+            transform: translateX(5px);
+            }
+            7% {
+            transform: translateX(5px);
+            }
+            18% {
+            transform: translateX(-5px);
+            }
+            22% {
+            transform: translateX(-5px);
+            }
+            38% {
+            transform: translateX(13px);
+            }
+            42% {
+            transform: translateX(13px);
+            }
+            58% {
+            transform: translateX(-13px);
+            }
+            62% {
+            transform: translateX(-13px);
+            }
+            78% {
+            transform: translateX(13px);
+            }
+            82% {
+            transform: translateX(13px);
+            }
+            100% {
+            top: calc(100% + 20px);
+            }
+        }
+
+        @keyframes fall-large {
+            0% {
+            top: -300px;
+            }
+            3% {
+            transform: translateX(5px);
+            }
+            7% {
+            transform: translateX(5px);
+            }
+            18% {
+            transform: translateX(-5px);
+            }
+            22% {
+            transform: translateX(-5px);
+            }
+            38% {
+            transform: translateX(13px);
+            }
+            42% {
+            transform: translateX(13px);
+            }
+            58% {
+            transform: translateX(-13px);
+            }
+            62% {
+            transform: translateX(-13px);
+            }
+            78% {
+            transform: translateX(13px);
+            }
+            82% {
+            transform: translateX(13px);
+            }
+            100% {
+            top: calc(100% + 20px);
+            }
+        }*/

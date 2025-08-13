@@ -1,0 +1,32 @@
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background:beige;
+  margin:0;
+}
+section{
+  border:1px solid black;
+  width:90%;
+  padding:10px;
+}
+h1,h2{
+  margin:0;
+}
+h2{
+  display:inline-flex;
+}
+img{
+  width:50vw;
+}
+#title{
+  display:flex;
+  align-items:center;
+}
+#title *{
+  margin:10px;
+}
+hr{
+  width:100%;
+  color:black;
+}
